@@ -14,6 +14,8 @@ O gráfico abaixo mostra a relação entre a corrente elétrica (em mA) e a velo
 
 <img src="assets/Velocidade_vs_Corrente.jpg" alt="Gráfico: Velocidade vs Corrente Elétrica" width="600">
 
+> Coeficiente angular (inclinação): 0.9407133148990025 RPM/mA
+
 ### Código de Análise
 
 O código utiliza a biblioteca `matplotlib` para plotar os gráficos e a função `np.polyfit` para ajustar uma reta aos dados experimentais na região onde o motor está em funcionamento. Abaixo está um trecho do código responsável pelo ajuste linear:
