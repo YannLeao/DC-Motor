@@ -52,6 +52,9 @@ def plot_speed_vs_current(current, speed, start_current):
         x_fit = np.linspace(min(current_working), max(current), 100)
         plt.plot(x_fit, poly(x_fit), '--', color='blue', label='Ajuste Linear')
 
+        # Imprimir o coeficiente angular (inclinação)
+        print(f"Coeficiente angular (inclinação): {coef[0]} RPM/mA")
+
     # Adicionar linha vertical para indicar o ponto de partida
     plt.axvline(x=start_current, color='red', linestyle=':', label=f'Corrente de Partida (~{start_current} mA)')
 
@@ -62,6 +65,8 @@ def plot_speed_vs_current(current, speed, start_current):
     plt.grid(alpha=0.5)
     plt.legend()
     plt.show()
+
+    return coef[0] if len(current_working) > 1 else None
 
 
 # --- Graphs ---
