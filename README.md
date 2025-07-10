@@ -4,6 +4,14 @@
 
 <img src="_assets/Motor.jpg" alt="Imagem do motor construído" width="400">
 
+## Ferramentas utilizadas
+
+<div align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib">
+</div>
+
 ## Análise dos Dados
 
 O código desenvolvido em Python permite analisar os dados experimentais obtidos durante o funcionamento do motor. A velocidade de rotação (em RPM) foi medida utilizando um disco de papel acoplado ao eixo do motor e um sensor infravermelho. A partir desses dados, foi possível plotar gráficos e realizar ajustes para entender a relação entre a corrente elétrica e a velocidade do motor.
