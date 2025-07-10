@@ -2,7 +2,7 @@
 
 > Este projeto foi desenvolvido como parte de um experimento de Física Geral na **Universidade Federal Rural de Pernambuco (UFRPE)**. O objetivo foi construir um motor CC caseiro utilizando materiais de fácil acesso e analisar o comportamento da velocidade de rotação em função da corrente elétrica aplicada.
 
-<img src="assets/Motor.jpg" alt="Imagem do motor construído" width="400">
+<img src="_assets/Motor.jpg" alt="Imagem do motor construído" width="400">
 
 ## Análise dos Dados
 
@@ -12,7 +12,7 @@ O código desenvolvido em Python permite analisar os dados experimentais obtidos
 
 O gráfico abaixo mostra a relação entre a corrente elétrica (em mA) e a velocidade de rotação do motor (em RPM). Observou-se que o motor só começa a girar a partir de uma corrente mínima de **154 mA**, indicando que abaixo desse valor a força eletromotriz gerada não é suficiente para vencer o atrito estático.
 
-<img src="assets/Velocidade_vs_Corrente.jpg" alt="Gráfico: Velocidade vs Corrente Elétrica" width="600">
+<img src="_assets/Velocidade_vs_Corrente.jpg" alt="Gráfico: Velocidade vs Corrente Elétrica" width="600">
 
 > Coeficiente angular (inclinação): 0.9407133148990025 RPM/mA
 
@@ -37,7 +37,7 @@ plt.plot(x_fit, poly(x_fit), '--', color='red', label='Ajuste Linear')
 
 ## Integrantes do Grupo
 
-   <img src="assets/Integrantes.jpg" alt="Integrantes do grupo" width="400">
+   <img src="_assets/Integrantes.jpg" alt="Integrantes do grupo" width="400">
 
 - Alysson Victor Silva de Carvalho - Engenharia de Controle e Automação
 - Elâne da Silva Ferreira - Engenharia de Controle e Automação
